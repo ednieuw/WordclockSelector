@@ -3,7 +3,17 @@
 <p>
 <a href="https://github.com/ednieuw">
 <img alt="Word clocks" longdesc="Word clocks" src="SelectorPics/Wordclock.jpg" ></a></p>
-<p>There are several different designs of the word clock. 
+<p>There are several different designs of the word clock. This page is an overview of all possibilities.
+
+The first designs in a 11 x 11 character grid are over 10 years old and uses white 2835/3528 LEDs, an ATMEGA328 and shift registers.
+Later designs were made with WS2812 RGB and SK6812 RGBW LED strips and an Arduino Nano.
+
+The French language needed a 12 x 12 character grid and the four-language clock with a 25 x 25 character grid. 
+These 12 x 12 11 x 11 character grid clocks use the Arduino Nano Every or a ATMEGA1280 chip
+
+
+
+
 There are examples for English, German, French and Dutch designs.<br>In the software it 
 is possible to add your own language.
 <br> </p>
