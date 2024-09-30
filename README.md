@@ -2,7 +2,7 @@
 <h1 class="auto-style3">Word clock selector</h1>
 <p>
 <a href="https://github.com/ednieuw">
-<img alt="Word clocks" height="314" longdesc="Word clocks" src="SelectorPics/Wordclock.jpg" width="1253" ></a></p>
+<img alt="Word clocks" longdesc="Word clocks" src="SelectorPics/Wordclock.jpg" ></a></p>
 <p>There are several different designs of the word clock. 
 There are examples for English, German, French and Dutch designs.<br>In the software it 
 is possible to add your own language.
