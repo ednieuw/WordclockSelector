@@ -7,18 +7,15 @@
 There are examples for English, German, French and Dutch designs.<br>In the software it 
 is possible to add your own language.
 <br> </p>
-<p class="auto-style3">All clocks are designed on PCBs (Printed Circuit board). <br>These PCBs are 
-designed in Fritzing and available in a Fritzing design format and as Gerber 
-file in a ZIP.<br>The zipped Gerber files can be uploaded to a company like 
-my supporter 
-<a href="PCBWay.com">PCBway that manufactures excellent PCBs with a good service</a>.<br>The Fritzing 
-files can be used as a template for your own design. <br>KiCad can also be used 
-for creating electronic circuit schematics but there is unfortunately in 2024 
-still no translation between the two formats possible.&nbsp; </p>
-<p class="auto-style3">All designs communicate with a Bluetooth serial terminal 
-on a phone or tablet but also possess a rotary encoder and DS3231 RTC time module to 
-set the time and keep the time accurate to 20 seconds a year.<br><br>There are 
-several built options for the word clock:</p>
+<p>
+All clocks are designed on PCBs (Printed Circuit board). <br>
+These PCBs are designed in Fritzing and available in a Fritzing design format and as Gerber 
+file in a ZIP.<br>The zipped Gerber files can be uploaded to a company likemy supporter <a href="PCBWay.com">PCBway that manufactures excellent PCBs with a good service</a>.<br>
+The Fritzing files can be used as a template for your own design. <br>
+KiCad can also be used for creating electronic circuit schematics but there is unfortunately in 2024 still no translation between the two formats possible.</p>
+<p>
+All designs communicate with a Bluetooth serial terminal on a phone or tablet but also possess a rotary encoder and DS3231 RTC time module to set the time and keep the time accurate to 20 seconds a year.<br><br>
+There are several built options for the word clock:</p>
 <ul>
 	<li>
 	<p>An ATMEGA328 chip with shift registers and white 
