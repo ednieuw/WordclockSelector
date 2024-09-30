@@ -19,7 +19,7 @@ The software contains four languages; English, German, French and Dutch .<br>
 <p>
 All clocks are designed on PCBs (Printed Circuit board). <br>
 These PCBs are designed in Fritzing and available in a Fritzing design format and as Gerber file in a ZIP.<br>
-The zipped Gerber files can be uploaded to a company like my supporter <a href="https://PCBWay.com">PCBway that manufactures excellent PCBs with a good service</a>.<br>
+The zipped Gerber files can be uploaded to a company like my supporter [PCBway](https://PCBWay.com) that manufactures excellent PCBs with a good service.<br>
 The Fritzing files can be used as a template for your own design. <br>
 KiCad can also be used for creating electronic circuit schematics but there is unfortunately in 2024 still no translation between the two formats possible.</p>
 <p>
