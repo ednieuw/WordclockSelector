@@ -3,7 +3,7 @@
 <p>
 <a href="https://github.com/ednieuw">
 <img alt="Word clocks" longdesc="Word clocks" src="SelectorPics/Wordclock.jpg" ></a></p>
-<p>There are several different designs of the word clock. This page givs an overview and pros andd cons of the possibilities.
+There are several different designs of the word clock. This page gives an overview and pros and cons of the possibilities.
 
 The first designsare are over 10 years in operation and have a clock face with a 11 x 11 character grid and has white 2835/3528 LED-strips, an ATMEGA328 and shift registers.<br>
 Later designs were made with WS2812 RGB and SK6812 RGBW LED strips and an Arduino Nano.<br>These clocks are 30 x 30 cm.
@@ -16,16 +16,16 @@ They have a standard size of 25 x 25 cm or 50 x 50 cm.
 In 2023 the Arduino Nano ESP32 with onboard WIFI and BLE functionality became available. The latest designs use this microprocessor. 
 
 The software contains four languages; English, German, French and Dutch .<br>
-<p>
+
 All clocks are designed on PCBs (Printed Circuit Board). <br>
 These PCBs are designed in Fritzing and available in a Fritzing design format and as Gerber file in a ZIP.
 	
 The zipped Gerber files can be uploaded to a company like my supporter [PCBway](https://PCBWay.com) that manufactures excellent PCBs with a good service.<br>
 The Fritzing files can be used as a template for your own design.<br>
 KiCad can also be used for creating electronic circuit schematics but there is unfortunately in 2024 still no translation between the two formats possible.</p>
-<p>
+
 All designs communicate with a Bluetooth serial terminal on a phone or tablet but also possess a rotary encoder and DS3231 RTC time module to set the time and keep the time accurate to 20 seconds a year.<br><br>
-There are several built options for the word clock:</p>
+There are several built options for the word clock:
 <ul>
 	<li>
 	<p>An ATMEGA328 chip with shift registers and white 
