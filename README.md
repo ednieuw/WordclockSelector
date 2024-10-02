@@ -3,24 +3,25 @@
 <p>
 <a href="https://github.com/ednieuw">
 <img alt="Word clocks" longdesc="Word clocks" src="SelectorPics/Wordclock.jpg" ></a></p>
-<p>There are several different designs of the word clock. This page is an overview of all possibilities.
+<p>There are several different designs of the word clock. This page givs an overview and pros andd cons of the possibilities.
 
-The first designs in a 11 x 11 character grid are over 10 years old and uses white 2835/3528 LEDs, an ATMEGA328 and shift registers.<br>
-Later designs were made with WS2812 RGB and SK6812 RGBW LED strips and an Arduino Nano. These clocks are 30 x 30 cm.
+The first designsare are over 10 years in operation and have a clock face with a 11 x 11 character grid and has white 2835/3528 LED-strips, an ATMEGA328 and shift registers.<br>
+Later designs were made with WS2812 RGB and SK6812 RGBW LED strips and an Arduino Nano.<br>These clocks are 30 x 30 cm.
 
 The four-language clock with a 25 x 25 character grid needed a 12 x 12 character grid for the French language.<br> 
-The other language character plates were redesigned and some words added.<br>
+The other single language character plates were redesigned and some words added. <br>
 These 12 x 12 character grid clocks use the Arduino Nano Every or a ATMEGA1280 chip with SK6812 or WS2812 LED-strips.<br>
 They have a standard size of 25 x 25 cm or 50 x 50 cm.
 
-In 2024 the Arduino Nano ESP32 with WIFI and BLE became avaialable. The latest designs use this microprocessor. 
+In 2023 the Arduino Nano ESP32 with onboard WIFI and BLE functionality became available. The latest designs use this microprocessor. 
 
 The software contains four languages; English, German, French and Dutch .<br>
 <p>
-All clocks are designed on PCBs (Printed Circuit board). <br>
-These PCBs are designed in Fritzing and available in a Fritzing design format and as Gerber file in a ZIP.<br>
-The zipped Gerber files can be uploaded to a company like my supporter PCBway (https://PCBWay.com) that manufactures excellent PCBs with a good service.<br>
-The Fritzing files can be used as a template for your own design. <br>
+All clocks are designed on PCBs (Printed Circuit Board). <br>
+These PCBs are designed in Fritzing and available in a Fritzing design format and as Gerber file in a ZIP.
+	
+The zipped Gerber files can be uploaded to a company like my supporter [PCBway](https://PCBWay.com) that manufactures excellent PCBs with a good service.<br>
+The Fritzing files can be used as a template for your own design.<br>
 KiCad can also be used for creating electronic circuit schematics but there is unfortunately in 2024 still no translation between the two formats possible.</p>
 <p>
 All designs communicate with a Bluetooth serial terminal on a phone or tablet but also possess a rotary encoder and DS3231 RTC time module to set the time and keep the time accurate to 20 seconds a year.<br><br>
@@ -44,10 +45,10 @@ There are several built options for the word clock:</p>
 	</li>
 </ul>
 
-The colourfull Fibonacci Mondriaan clocks are here for an ESP32: https://github.com/ednieuw/Fibonacci-ESP32-C3-S3-Clock<br>
-or here for a Arduino Nano: https://github.com/ednieuw/Fibonacci-Vierkantekokerklok with a 3D printer design for the stick version.
+The colourfull [Fibonacci Mondriaan clocks are here for an ESP32](https://github.com/ednieuw/Fibonacci-ESP32-C3-S3-Clock)<br>
+or [here for a Arduino Nano.](https://github.com/ednieuw/Fibonacci-Vierkantekokerklok) with a 3D-printer design for the stick version.
 
-<hr><H2>Pros and Cons</H2>
+<hr><H2>Pros and Cons of the different clock designs</H2>
 <hr><br>
 <H3><a href="https://github.com/ednieuw/Woordklok-witte-LEDs">ATMEGA328 chip with shift registers and white LEDs.</a></H3>
 <p><strong>Pro</strong></p>
