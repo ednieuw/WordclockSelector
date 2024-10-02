@@ -77,18 +77,17 @@ WIFI NTP time can be added) </p>
 <hr>
 <p>&nbsp;</p>
 <H3><a href="https://github.com/ednieuw/Arduino-ESP32-Nano-Wordclock">The Arduino Nano ESP32 with WS2812 RGB or SK6812 RGBW</a> </H3>
-	LED-strips is the most versatile. 
 <p><strong>Pro</strong></p>
 <p>WIFI and BLE in the microprocessor to control the clock from a phone or PC.</p>
 <p>NTP time from the internet in combination with the DS3231 RTC module.<br>(It 
 is possible to use the clock without internet) </p>
-<p>Software runs on ESP32-C3/S3 and many more MCU's without a PCB.<br>Just 
-connect the LED-strip and the DS3231 RTC to the pins and the clock will run<br></p>
+<p>Software runs on ESP32-C3/S3 and many more MCU's without a PCB.<br>
+Just connect the LED-strip and the DS3231 RTC to the pins and the clock will run<br></p>
 <p><strong>Cons</strong></p>
 <p>None?</p>
-<p>&nbsp;</p>
+
 <hr>
-<p>&nbsp;</p>
+
 <H3><a href="https://github.com/ednieuw/ESP32ShiftregisterBWclock">An Arduino Nano ESP32 with shift registers and white LEDs.</a></H3>
 <p><strong>Pro</strong></p>
 <p>WIFI and BLE in the microprocessor to control the clock from a phone or PC</p>
@@ -97,10 +96,7 @@ is possible to use the clock without internet) </p>
 <p>&nbsp;</p>
 <p><strong>Cons</strong></p>
 <p>A lot of soldering. But a advantage if you like soldering.</p>
-<p>&nbsp;</p>
-<span><br><br><br">
 
-</span>
 <p>Oct 2024</p>
 
 
