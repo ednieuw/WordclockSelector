@@ -17,7 +17,7 @@ In 2023 the Arduino Nano ESP32 with onboard WIFI and BLE functionality became av
 
 The software contains four languages; English, German, French and Dutch .<br>
 
-All clocks are designed on PCBs (Printed Circuit Board). <br>
+[All clocks are designed on PCBs (Printed Circuit Board)](https://github.com/ednieuw/NanoESP32PCB). <br>
 These PCBs are designed in Fritzing and available in a Fritzing design format and as Gerber file in a ZIP.
 	
 The zipped Gerber files can be uploaded to a company like my supporter [PCBway](https://PCBWay.com) that manufactures excellent PCBs with a good service.<br>
