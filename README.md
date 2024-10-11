@@ -28,21 +28,21 @@ All designs communicate with a Bluetooth serial terminal on a phone or tablet bu
 There are several built options for the word clock:
 <ul>
 	<li>
-	<p>An ATMEGA328 chip with shift registers and white 
-	LEDs.</p>
+	<p>An ATMEGA328 chip with shift registers and white LEDs.</p>
 	</li>
 	<li>
-	<p>An Arduino Nano Every/ATMEGA1280 with WS2812 RGB or SK6812 RGBW 
-	LED-strips</p>
+	<p>An Arduino Nano Every/ATMEGA1280 with WS2812 RGB or SK6812 RGBW LED-strips</p>
 	</li>
 	<li>
-	<p>An Arduino Nano ESP32 with WS2812 RGB or SK6812 RGBW 
-	LED-strips</p>
+	<p>An Arduino Nano ESP32 with WS2812 RGB or SK6812 RGBW	LED-strips</p>
 	</li>
 	<li>
-	<p>An Arduino Nano ESP32 with shift registers and white 
-	LEDs.<br></p>
+	<p>An Arduino Nano ESP32 with shift registers and white	LED-strips.</p>
 	</li>
+	<li>
+	<p>A combination of all on one PCB the Ultimate Arduino Nano ESP32 with shift registers and white LEDs and with WS2812 RGB or SK6812 RGBW.</p>
+	</li>
+
 </ul>
 
 The colourfull [Fibonacci Mondriaan clocks are here for an ESP32](https://github.com/ednieuw/Fibonacci-ESP32-C3-S3-Clock)<br>
@@ -91,12 +91,22 @@ Just connect the LED-strip and the DS3231 RTC to the pins and the clock will run
 <H3><a href="https://github.com/ednieuw/ESP32ShiftregisterBWclock">An Arduino Nano ESP32 with shift registers and white LEDs.</a></H3>
 <p><strong>Pro</strong></p>
 <p>WIFI and BLE in the microprocessor to control the clock from a phone or PC</p>
-<p>NTP time from the internet in combination with the DS3231 RTC module.<br>(It 
-is possible to use the clock without internet) </p>
+<p>NTP time from the internet in combination with the DS3231 RTC module.<br>(It is possible to use the clock without internet) </p>
 <p>&nbsp;</p>
 <p><strong>Cons</strong></p>
 <p>A lot of soldering. But a advantage if you like soldering.</p>
 
+<hr>
+
+<H3><a href="https://github.com/ednieuw/NanoESP32-BW-RGBW-clock">A combination of all on one PCB the Ultimate Arduino Nano ESP32 with shift registers and white LEDs and with WS2812 RGB or SK6812 RGBW.</a></H3>
+<p><strong>Pro</strong></p>
+<p>WIFI and BLE in the microprocessor to control the clock from a phone or PC</p>
+<p>NTP time from the internet in combination with the DS3231 RTC module.<br>(It is possible to use the clock without internet) </p>
+<p>One PCB with all possibilities of above designs.</p>
+<p>&nbsp;</p>
+<p><strong>Cons</strong></p>
+<p>A lot of soldering.</p>
+---
 <p>Oct 2024</p>
 
 
