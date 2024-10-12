@@ -94,7 +94,7 @@ Just connect the LED-strip and the DS3231 RTC to the pins and the clock will run
 <p>NTP time from the internet in combination with the DS3231 RTC module.<br>(It is possible to use the clock without internet) </p>
 <p>&nbsp;</p>
 <p><strong>Cons</strong></p>
-<p>A lot of soldering. But a advantage if you like soldering.</p>
+<p>A lot of soldering. But an advantage if you like soldering.</p>
 
 <hr>
 
