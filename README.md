@@ -49,8 +49,9 @@ The colourfull [Fibonacci Mondriaan clocks are here for an ESP32](https://github
 or [here for a Arduino Nano.](https://github.com/ednieuw/Fibonacci-Vierkantekokerklok) with a 3D-printer design for the stick version.
 
 <hr><H2>Pros and Cons of the different clock designs</H2>
-<hr><br>
-<H3><a href="https://github.com/ednieuw/Woordklok-witte-LEDs">ATMEGA328 chip with shift registers and white LEDs.</a></H3>
+<hr>
+<a href="https://github.com/ednieuw/Woordklok-witte-LEDs">ATMEGA328 chip with shift registers and white LEDs.</a>
+<br><br>
 <p><strong>Pro</strong></p>
 <p>Sturdy design that did not had one failure in 40 clocks for over 10 years.</p>
 <p>Can run with DCF77 time receiver.</p>
@@ -62,8 +63,8 @@ By replacing the Bluetooth adapter with a ESP32-C3 or S3 Bluetooth and WIFI NTP 
 You have to translate the Dutch instructions to your own language or mail me.
 
 <hr>
-<p>&nbsp;</p>
-<H3><a href="https://github.com/ednieuw/Word-Colour-Clock-SK6812-WS2812">Arduino Nano Every with WS2812 RGB or SK6812 RGBW LED-strips</a></H3>
+<a href="https://github.com/ednieuw/Word-Colour-Clock-SK6812-WS2812">Arduino Nano Every with WS2812 RGB or SK6812 RGBW LED-strips</a>
+<br><br>
 <p><strong>Pro</strong></p>
 <p>Uses colour RGB(W) LED-strips</p>
 <p>Solid design that did not had one failure in 40 clocks for over 5 years.</p>
@@ -75,8 +76,9 @@ WIFI NTP time can be added) </p>
 <p>DCF77 only possible with receiver 10-15cm cm away from the RGB(W) LEDs.</p>
 <p>&nbsp;</p>
 <hr>
-<p>&nbsp;</p>
-<H3><a href="https://github.com/ednieuw/Arduino-ESP32-Nano-Wordclock">The Arduino Nano ESP32 with WS2812 RGB or SK6812 RGBW</a> </H3>
+
+<a href="https://github.com/ednieuw/Arduino-ESP32-Nano-Wordclock">The Arduino Nano ESP32 with WS2812 RGB or SK6812 RGBW</a> 
+<br><br>
 <p><strong>Pro</strong></p>
 <p>WIFI and BLE in the microprocessor to control the clock from a phone or PC.</p>
 <p>NTP time from the internet in combination with the DS3231 RTC module.<br>(It 
@@ -88,7 +90,8 @@ Just connect the LED-strip and the DS3231 RTC to the pins and the clock will run
 
 <hr>
 
-<H3><a href="https://github.com/ednieuw/ESP32ShiftregisterBWclock">An Arduino Nano ESP32 with shift registers and white LEDs.</a></H3>
+<a href="https://github.com/ednieuw/ESP32ShiftregisterBWclock">An Arduino Nano ESP32 with shift registers and white LEDs.</a>
+<br><br>
 <p><strong>Pro</strong></p>
 <p>WIFI and BLE in the microprocessor to control the clock from a phone or PC</p>
 <p>NTP time from the internet in combination with the DS3231 RTC module.<br>(It is possible to use the clock without internet) </p>
@@ -98,7 +101,8 @@ Just connect the LED-strip and the DS3231 RTC to the pins and the clock will run
 
 <hr>
 
-<H3><a href="https://github.com/ednieuw/NanoESP32-BW-RGBW-clock">A combination of all on one PCB the Ultimate Arduino Nano ESP32 with shift registers and white LEDs and with WS2812 RGB or SK6812 RGBW.</a></H3>
+<a href="https://github.com/ednieuw/NanoESP32-BW-RGBW-clock">A combination of all on one PCB the Ultimate Arduino Nano ESP32 with shift registers and white LEDs and with WS2812 RGB or SK6812 RGBW.</a>
+<br><br>
 <p><strong>Pro</strong></p>
 <p>WIFI and BLE in the microprocessor to control the clock from a phone or PC</p>
 <p>NTP time from the internet in combination with the DS3231 RTC module.<br>(It is possible to use the clock without internet) </p>
