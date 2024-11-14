@@ -1,9 +1,14 @@
 
-<h1 class="auto-style3">Word clock selector</h1>
-<p>
-<a href="https://github.com/ednieuw">
-<img alt="Word clocks" longdesc="Word clocks" src="SelectorPics/Wordclock.jpg" ></a></p>
-There are several different designs of the word clock. This page gives an overview and pros and cons of the possibilities.
+<h1 class="auto-style3">Word clock and Fibonacci clock selector</h1>
+
+
+<img alt="Word clocks" longdesc="Word clocks" src="SelectorPics/Wordclock.jpg" ></a>
+There are several different designs of the word clock. This page gives an overview and pros and cons of the possibilities.<br>
+
+With some spare RGB(W) LED-strip a Fibonnaci clock can be made.<br>
+This clock displays time with three colours and looks like a constantly changing painting from the Dutch painter Mondriaan.<br>
+The colourfull [Fibonacci Mondriaan clocks are here for an ESP32](https://github.com/ednieuw/Fibonacci-ESP32-C3-S3-Clock)
+or [here for a Arduino Nano.](https://github.com/ednieuw/Fibonacci-Vierkantekokerklok) with a 3D-printer design for the stick version.<br>
 
 The first designsare are over 10 years in operation and have a clock face with a 11 x 11 character grid and has white 2835/3528 LED-strips, an ATMEGA328 and shift registers.<br>
 Later designs were made with WS2812 RGB and SK6812 RGBW LED strips and an Arduino Nano.<br>These clocks are 30 x 30 cm.
@@ -45,8 +50,7 @@ There are several built options for the word clock:
 
 </ul>
 
-The colourfull [Fibonacci Mondriaan clocks are here for an ESP32](https://github.com/ednieuw/Fibonacci-ESP32-C3-S3-Clock)<br>
-or [here for a Arduino Nano.](https://github.com/ednieuw/Fibonacci-Vierkantekokerklok) with a 3D-printer design for the stick version.
+
 
 <hr><H2>Pros and Cons of the different clock designs</H2>
 <hr>
