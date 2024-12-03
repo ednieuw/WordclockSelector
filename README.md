@@ -3,10 +3,14 @@
 
 
 <img alt="Word clocks" longdesc="Word clocks" src="SelectorPics/Wordclock.jpg" ></a>
-There are several different designs of the word clock. This page gives an overview and pros and cons of the possibilities.<br>
+There are several different designs of the word clock built with an Arduino Nano Every ot Nano ESP32.<br>
+The software of all clocks supports SK6812 and WS2812 LEDs, Bluetooth connection to control the clock or as backup a rotary encoder, an accurate DS3231 RTC and a LDR light intensity detector.<br>
+The Nano ESP32 designs supports a web page and WIFI / NTP time.
+
+This page gives an overview and pros and cons of the possibilities.<br>
 
 With some spare RGB(W) LED-strip a Fibonnaci clock can be made.<br>
-This clock displays time with three colours and looks like a constantly changing painting from the Dutch painter Mondriaan.<br>
+This Fibonacci clock displays time with three colours and looks like a constantly changing painting from the Dutch painter Mondriaan.<br>
 The colourfull [Fibonacci Mondriaan clocks are here for an ESP32-C3 and S3](https://github.com/ednieuw/Fibonacci-ESP32-C3-S3-Clock)
 or [here for a Arduino Nano.](https://github.com/ednieuw/Fibonacci-Vierkantekokerklok) with a 3D-printer design for the stick version.<br>
 And finally the latest designs for the [Arduino Nano ESP32](https://github.com/ednieuw/Fibonacci-Nano-ESP32-clock). 
