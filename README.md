@@ -3,9 +3,13 @@
 
 
 <img alt="Word clocks" longdesc="Word clocks" src="SelectorPics/Wordclock.jpg" ></a>
-There are several different designs of the word clock built with an Arduino Nano Every ot Nano ESP32.<br>
-The software of all clocks supports SK6812 and WS2812 LEDs, Bluetooth connection to control the clock or as backup a rotary encoder, an accurate DS3231 RTC and a LDR light intensity detector.<br>
-The Nano ESP32 designs supports a web page and WIFI / NTP time.
+There are three different designs of the word clock built with a:
+- a bare ATMEGA328 chip and white LEDs<br>
+- an Arduino Nano Every and with<br> 
+- an Arduino Nano ESP32.<br>
+The last two supports WS2812 RGB and SK6812 RGBW LEDs.<br>
+The software of all clocks supports Bluetooth connection to control the clock and as backup a rotary encoder, an accurate DS3231 RTC and a LDR light intensity detector.<br>
+The Nano ESP32 designs supports a web page and WIFI/NTP time.
 
 This page gives an overview and pros and cons of the possibilities.<br>
 
@@ -15,7 +19,7 @@ The colourfull [Fibonacci Mondriaan clocks are here for an ESP32-C3 and S3](http
 or [here for a Arduino Nano.](https://github.com/ednieuw/Fibonacci-Vierkantekokerklok) with a 3D-printer design for the stick version.<br>
 And finally the latest designs for the [Arduino Nano ESP32](https://github.com/ednieuw/Fibonacci-Nano-ESP32-clock). 
 
-The first designsare are over 10 years in operation and have a clock face with a 11 x 11 character grid and has white 2835/3528 LED-strips, an ATMEGA328 and shift registers.<br>
+The first designs are are over 10 years in operation and have a clock face with a 11 x 11 character grid and has white 2835/3528 LED-strips, an ATMEGA328 and shift registers.<br>
 Later designs were made with WS2812 RGB and SK6812 RGBW LED strips and an Arduino Nano.<br>These clocks are 30 x 30 cm.
 
 The four-language clock with a 25 x 25 character grid needed a 12 x 12 character grid for the French language.<br> 
@@ -25,7 +29,7 @@ They have a standard size of 25 x 25 cm or 50 x 50 cm.
 
 In 2023 the Arduino Nano ESP32 with onboard WIFI and BLE functionality became available. The latest designs use this microprocessor. 
 
-The software contains four languages; English, German, French and Dutch .<br>
+The software contains software to display four languages; English, German, French and Dutch.<br>
 
 [All clocks are designed on PCBs (Printed Circuit Board)](https://github.com/ednieuw/NanoESP32PCB). <br>
 These PCBs are designed in Fritzing and available in a Fritzing design format and as Gerber file in a ZIP.
@@ -52,11 +56,7 @@ There are several built options for the word clock:
 	<li>
 	<p>A combination of all on one PCB the Ultimate Arduino Nano ESP32 with shift registers and white LEDs and with WS2812 RGB or SK6812 RGBW.</p>
 	</li>
-
 </ul>
-
-
-
 <hr><H2>Pros and Cons of the different clock designs</H2>
 <hr>
 <a href="https://github.com/ednieuw/Woordklok-witte-LEDs">ATMEGA328 chip with shift registers and white LEDs.</a>
