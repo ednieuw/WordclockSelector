@@ -1,7 +1,6 @@
 
 <h1 class="auto-style3">Word clock and Fibonacci clock selector</h1>
 
-
 <img alt="Word clocks" longdesc="Word clocks" src="SelectorPics/Wordclock.jpg" ></a>
 There are three different designs of the word clock built with a:
 - a bare ATMEGA328 chip and white LEDs<br>
@@ -19,13 +18,15 @@ The colourfull [Fibonacci Mondriaan clocks are here for an ESP32-C3 and S3](http
 or [here for a Arduino Nano.](https://github.com/ednieuw/Fibonacci-Vierkantekokerklok) with a 3D-printer design for the stick version.<br>
 And finally the latest designs for the [Arduino Nano ESP32](https://github.com/ednieuw/Fibonacci-Nano-ESP32-clock). 
 
-The first designs are are over 10 years in operation and have a clock face with a 11 x 11 character grid and has white 2835/3528 LED-strips, an ATMEGA328 and shift registers.<br>
-Later designs were made with WS2812 RGB and SK6812 RGBW LED strips and an Arduino Nano.<br>These clocks are 30 x 30 cm.
+The first designs of the word clock are are over 10 years in operation. They have a clock face with a 11 x 11 character grid.<br>
+These clocks has white 2835/3528 LED-strips, an ATMEGA328 and use shift registers to turn on and off LED-strips.<br>
+Later designs were made with WS2812 RGB and SK6812 RGBW LED strips and an Arduino Nano.<br>
+These clocks are 30 x 30 cm.
 
-The four-language clock with a 25 x 25 character grid needed a 12 x 12 character grid for the French language.<br> 
-The other single language character plates were redesigned and some words added. <br>
+The four-language clock uses a 25 x 25 character grid. 
+Because the French language could only be designed in a 12 x 12 character grid the other single language character faces were redesigned and some words added.<br>
 These 12 x 12 character grid clocks use the Arduino Nano Every or a ATMEGA1280 chip with SK6812 or WS2812 LED-strips.<br>
-They have a standard size of 25 x 25 cm or 50 x 50 cm.
+They have a standard size of 25 x 25 cm or 50 x 50 cm. 
 
 In 2023 the Arduino Nano ESP32 with onboard WIFI and BLE functionality became available. The latest designs use this microprocessor. 
 
