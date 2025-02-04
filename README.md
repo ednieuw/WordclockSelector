@@ -17,12 +17,12 @@ This page gives an overview and the pros and cons of the possibilities.<br>
 
 With some spare RGB(W) LED-strip a Fibonnaci clock can be made.<br>
 This Fibonacci clock displays time with three colours and looks like a constantly changing painting from the Dutch painter Mondriaan.<br>
-The colourfull [Fibonacci Mondriaan clocks are here for an ESP32-C3 and S3](https://github.com/ednieuw/Fibonacci-ESP32-C3-S3-Clock)
+The colorful [Fibonacci Mondriaan clocks are here for an ESP32-C3 and S3](https://github.com/ednieuw/Fibonacci-ESP32-C3-S3-Clock)
 or [here for a Arduino Nano](https://github.com/ednieuw/Fibonacci-Vierkantekokerklok) with a 3D-printer design for the stick version.<br>
 
 And finally the latest Fibonacci-clock designs for the [Arduino Nano ESP32](https://github.com/ednieuw/Fibonacci-Nano-ESP32-clock). 
 
-The first designs of the word clock are are over 10 years in operation. They have a clock face with a 11 x 11 character grid.<br>
+The first designs of the word clock are over 10 years in operation. They have a clock face with a 11 x 11 character grid.<br>
 These clocks uses white 2835/3528 LED-strips, an ATMEGA328 and use shift registers to turn on and off LED-strips.<br>
 Later designs were made with WS2812 RGB and SK6812 RGBW LED strips and an Arduino Nano.<br>
 These clocks are 30 x 30 cm.
@@ -86,7 +86,7 @@ You have to translate the Dutch instructions to your own language or mail me.
 <p>Easy to solder</p>
 <p><strong>Cons</strong></p>
 <p>No WIFI NTP time<br>(<a href="https://github.com/ednieuw/ESP32SerialNTP-BLE-Clock">By 
-replacing&nbsp; the Bluetooth adapter</a> with a ESP32-C3 or S3 Bluetooth and 
+replacing the Bluetooth adapter</a> with a ESP32-C3 or S3 Bluetooth and 
 WIFI NTP time can be added) </p>
 <p>DCF77 only possible with receiver 10-15cm cm away from the RGB(W) LEDs.</p>
 <p>&nbsp;</p>
