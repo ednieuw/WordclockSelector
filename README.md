@@ -65,34 +65,43 @@ There are several built options for the word clock:
 </ul>
 <hr><H2>Pros and Cons of the different clock designs</H2>
 <hr>
-<a href="https://github.com/ednieuw/Woordklok-witte-LEDs">ATMEGA328 chip with shift registers and white LEDs.</a>
+ <H2><a href="https://github.com/ednieuw/Woordklok-witte-LEDs">ATMEGA328 chip with shift registers and white LEDs.</H2></a>
 <br><br>
 <p><strong>Pro</strong></p>
+
 <p>Sturdy design that did not had one failure in 40 clocks for over 10 years.</p>
 <p>Can run with DCF77 time receiver.</p>
 <p><strong>Cons</strong></p>
 <p>A lot of soldering. But a advantage if you like soldering.</p>
-<p>No WIFI NTP time. <br>(<a href="https://github.com/ednieuw/ESP32SerialNTP-BLE-Clock">
-By replacing the Bluetooth adapter with a ESP32-C3 or S3 Bluetooth and WIFI NTP time can be added)
+<p>No WIFI NTP time. <br>
+
+<p><strong>Options</strong></p>
+By replacing the Bluetooth adapter with a [ESP32-C3 or S3 WIFI NTP time](https://github.com/ednieuw/ESP32SerialNTP-BLE-Clock)  can be added
+
+Or use the [Nano ESP32 and HC12 transmitter](https://github.com/ednieuw/ESP32-HC12)  to send time
 
 You have to translate the Dutch instructions to your own language or mail me.
 
 <hr>
-<a href="https://github.com/ednieuw/Word-Colour-Clock-SK6812-WS2812">Arduino Nano Every with WS2812 RGB or SK6812 RGBW LED-strips</a>
+<H2><a href="https://github.com/ednieuw/Word-Colour-Clock-SK6812-WS2812">Arduino Nano Every with WS2812 RGB or SK6812 RGBW LED-strips</a></H2>
 <br><br>
 <p><strong>Pro</strong></p>
 <p>Uses colour RGB(W) LED-strips</p>
 <p>Solid design that did not had one failure in 40 clocks for over 5 years.</p>
 <p>Easy to solder</p>
+<p>DCF77 time only possible with receiver 10-15cm cm away from the RGB(W) LEDs.</p>
+
 <p><strong>Cons</strong></p>
-<p>No WIFI NTP time<br>(<a href="https://github.com/ednieuw/ESP32SerialNTP-BLE-Clock">By 
-replacing the Bluetooth adapter</a> with a ESP32-C3 or S3 Bluetooth and 
-WIFI NTP time can be added) </p>
-<p>DCF77 only possible with receiver 10-15cm cm away from the RGB(W) LEDs.</p>
-<p>&nbsp;</p>
+<p>No WIFI NTP time<br>
+
+<p><strong>Options</strong></p>
+By replacing the Bluetooth adapter with a [ESP32-C3 or S3 WIFI NTP time](https://github.com/ednieuw/ESP32SerialNTP-BLE-Clock) can be added.
+
+Or use the [Nano ESP32 and HC12 transmitter](https://github.com/ednieuw/ESP32-HC12)  to send time.
+
 <hr>
 
-<a href="https://github.com/ednieuw/Arduino-ESP32-Nano-Wordclock">The Arduino Nano ESP32 with WS2812 RGB or SK6812 RGBW</a> 
+<H2><a href="https://github.com/ednieuw/Arduino-ESP32-Nano-Wordclock">The Arduino Nano ESP32 with WS2812 RGB or SK6812 RGBW</a></H2> 
 <br><br>
 <p><strong>Pro</strong></p>
 <p>WIFI and BLE in the microprocessor to control the clock from a phone or PC.</p>
@@ -105,7 +114,7 @@ Just connect the LED-strip and the DS3231 RTC to the pins and the clock will run
 
 <hr>
 
-<a href="https://github.com/ednieuw/ESP32ShiftregisterBWclock">An Arduino Nano ESP32 with shift registers and white LEDs.</a>
+<H2><a href="https://github.com/ednieuw/ESP32ShiftregisterBWclock">An Arduino Nano ESP32 with shift registers and white LEDs.</a></H2>
 <br><br>
 <p><strong>Pro</strong></p>
 <p>WIFI and BLE in the microprocessor to control the clock from a phone or PC</p>
@@ -116,7 +125,7 @@ Just connect the LED-strip and the DS3231 RTC to the pins and the clock will run
 
 <hr>
 
-<a href="https://github.com/ednieuw/NanoESP32-BW-RGBW-clock">A combination of all on one PCB the Ultimate Arduino Nano ESP32 with shift registers and white LEDs and with WS2812 RGB or SK6812 RGBW.</a>
+<H2><a href="https://github.com/ednieuw/NanoESP32-BW-RGBW-clock">A combination of all on one PCB the Ultimate Arduino Nano ESP32 with shift registers and white LEDs and with WS2812 RGB or SK6812 RGBW.</a></H2>
 <br><br>
 <p><strong>Pro</strong></p>
 <p>WIFI and BLE in the microprocessor to control the clock from a phone or PC</p>
@@ -126,6 +135,6 @@ Just connect the LED-strip and the DS3231 RTC to the pins and the clock will run
 <p><strong>Cons</strong></p>
 <p>A lot of soldering.</p>
 ---
-<p>Oct 2024</p>
+<p>May 2026</p>
 
 
