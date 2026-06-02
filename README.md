@@ -45,7 +45,7 @@ The Fritzing files can be used as a template for your own design.<br>
 KiCad can also be used for creating electronic circuit schematics but there is unfortunately in 2024 still no translation between the two formats possible.</p>
 
 All designs communicate with a Bluetooth serial terminal app on a phone or tablet but also includes a rotary encoder and DS3231 RTC time module to set the time and keep the time accurate to 20 seconds a year.<br><br>
-There are several built options for the word clock:
+There are several build options for the word clock:
 <ul>
 	<li>
 	<p>An ATMEGA328 chip with shift registers and white LEDs.</p>
@@ -60,7 +60,7 @@ There are several built options for the word clock:
 	<p>An Arduino Nano ESP32 with shift registers and white	LED-strips.</p>
 	</li>
 	<li>
-	<p>A combination of all on one PCB the Ultimate Arduino Nano ESP32 with shift registers and white LEDs and with WS2812 RGB or SK6812 RGBW.</p>
+	<p>A combination of all on one PCB the Ultimate Arduino Nano ESP32 with shift registers and white LEDs and WS2812 RGB or SK6812 RGBW.</p>
 	</li>
 </ul>
 <hr><H2>Pros and Cons of the different clock designs</H2>
